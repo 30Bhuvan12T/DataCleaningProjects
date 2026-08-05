@@ -1,59 +1,58 @@
-Data Cleaning
-Overview
-This repository contains projects, scripts, and notebooks focused on Data Cleaning and Preprocessing using Python.
-Data cleaning is an essential step in data analysis and machine learning to improve data quality, consistency, and reliability.
+# 🧹 Data Cleaning with Python
 
-Objectives
+## 📌 Overview
 
+This project focuses on cleaning and preparing raw datasets for analysis. It demonstrates essential data preprocessing techniques using Python and Pandas to improve data quality and ensure reliable insights.
 
-Handle missing values
+## 🎯 Objectives
 
+* Handle missing values
+* Remove duplicate records
+* Correct inconsistent data
+* Standardize text and date formats
+* Detect and treat outliers
+* Convert data types
+* Prepare data for analysis and visualization
 
-Remove duplicate records
+## 🛠️ Tools & Technologies
 
+* Python
+* Pandas
+* NumPy
+* Jupyter Notebook
 
-Correct inconsistent data
+## 📂 Data Cleaning Process
 
+* Imported the dataset
+* Explored data structure and summary statistics
+* Identified missing values
+* Removed duplicate entries
+* Fixed inconsistent formatting
+* Converted columns to appropriate data types
+* Treated outliers where necessary
+* Exported the cleaned dataset
 
-Standardize formats
+## 📊 Skills Demonstrated
 
+* Data Cleaning
+* Data Preprocessing
+* Exploratory Data Analysis (EDA)
+* Feature Preparation
+* Data Quality Assessment
 
-Detect and treat outliers
+## 📁 Repository Structure
 
+```
+├── data/
+│   ├── raw_data.csv
+│   └── cleaned_data.csv
+├── notebooks/
+│   └── data_cleaning.ipynb
+├── images/
+│   └── output.png
+└── README.md
+```
 
-Convert data types
+## 🚀 Outcome
 
-
-Prepare datasets for analysis and machine learning
-
-
-
-Technologies Used
-
-
-Python
-
-
-Pandas
-
-
-NumPy
-
-
-Jupyter Notebook
-
-
-
-Common Data Cleaning Tasks
-Handling Missing Values
-
-
-Removing null values
-
-
-Filling missing data using mean, median, or mode
-
-
-Forward fill and backward fill techniques
-
-
+The cleaned dataset is accurate, consistent, and analysis-ready, providing a strong foundation for visualization, reporting, and machine learning workflows.
